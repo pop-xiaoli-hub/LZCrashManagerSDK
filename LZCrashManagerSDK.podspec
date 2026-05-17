@@ -12,7 +12,7 @@ for a short window, and uploading pending crash reports to a server on next laun
   s.license          = { :type => 'MIT' }
   s.author           = { 'pop-xiaoli-hub' => '2397846118@qq.com' }
   s.platform         = :ios, '12.0'
-  s.source           = { :git => 'git@github.com:pop-xiaoli-hub/LZCrashManagerSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/pop-xiaoli-hub/LZCrashManagerSDK.git', :tag => s.version.to_s }
 
   s.requires_arc     = true
   s.static_framework = true
